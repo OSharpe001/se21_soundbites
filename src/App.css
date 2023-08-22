@@ -52,9 +52,8 @@ button:active {
 
 .button-set {
   width: 23%;
-  /* height:  */
   border-radius: 16px;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 
 .random-button {
