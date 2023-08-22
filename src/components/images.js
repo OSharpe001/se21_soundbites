@@ -25,6 +25,12 @@ import solemn_kitty from "../assets/images/cat_images/solemn_kitty.png";
 import taunting_cat from "../assets/images/cat_images/taunting_cat.png";
 import too_cool_cat from "../assets/images/cat_images/too_cool_cat.png";
 import with_bells_on_kitty from "../assets/images/cat_images/with_bells_on_kitty.png";
+import eagle1 from "../assets/images/eagle_images/eagle1.png";
+import eagle2 from "../assets/images/eagle_images/eagle2.png";
+import eagle3 from "../assets/images/eagle_images/eagle3.png";
+import eagle4 from "../assets/images/eagle_images/eagle4.png";
+import eagle5 from "../assets/images/eagle_images/eagle5.png";
+import eagle6 from "../assets/images/eagle_images/eagle6.png";
 
 export const allImages = [
     {
@@ -162,6 +168,36 @@ export const allImages = [
         image: with_bells_on_kitty,
         alt: "cat"
     },
+    {
+        class: "background-image",
+        image: eagle1,
+        alt: "eagle"
+    },
+    {
+        class: "background-image",
+        image: eagle2,
+        alt: "eagle"
+    },
+    {
+        class: "background-image",
+        image: eagle3,
+        alt: "eagle"
+    },
+    {
+        class: "background-image",
+        image: eagle4,
+        alt: "eagle"
+    },
+    {
+        class: "background-image",
+        image: eagle5,
+        alt: "eagle"
+    },
+    {
+        class: "background-image",
+        image: eagle6,
+        alt: "eagle"
+    },
 ];
 
 export const professionalImages = [
@@ -297,5 +333,38 @@ export const kittyImages = [
         class: "background-image",
         image: with_bells_on_kitty,
         alt: "cat"
+    },
+];
+
+export const eagleImages = [
+    {
+        class: "background-image",
+        image: eagle1,
+        alt: "eagle"
+    },
+    {
+        class: "background-image",
+        image: eagle2,
+        alt: "eagle"
+    },
+    {
+        class: "background-image",
+        image: eagle3,
+        alt: "eagle"
+    },
+    {
+        class: "background-image",
+        image: eagle4,
+        alt: "eagle"
+    },
+    {
+        class: "background-image",
+        image: eagle5,
+        alt: "eagle"
+    },
+    {
+        class: "background-image",
+        image: eagle6,
+        alt: "eagle"
     },
 ];
