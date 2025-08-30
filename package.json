@@ -2,6 +2,25 @@
   "name": "se21_soundbites",
   "version": "0.1.0",
   "private": true,
+  "description": "Silly soundbites and images for software engineers",
+  "homepage": "https://github.com/OSharpe001/se21_soundbites#readme",
+  "bugs": {
+    "url": "https://github.com/OSharpe001/se21_soundbites/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OSharpe001/se21_soundbites.git"
+  },
+  "license": "ISC",
+  "author": "OSharpe",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -11,11 +30,8 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "devDependencies": {
+    "jest": "^27.5.1"
   },
   "eslintConfig": {
     "extends": [
