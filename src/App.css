@@ -1,0 +1,116 @@
+html {
+  background: radial-gradient(#c0eaf1, #daadee);
+}
+.App {
+  text-align: center;
+  /* background: radial-gradient(#c0eaf1, #daadee); */
+  min-height: 95vh;
+}
+
+.background-image {
+  background-repeat: no-repeat;
+  background-size: contain, cover;
+  background-position: center;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px auto;
+  padding: 10px auto;
+}
+.header-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.change-image-button {
+  margin: auto 2vw;
+  /* border: 2px solid red; */
+}
+button {
+  height: fit-content;
+  width: max-content;
+  margin: 0 auto;
+  box-shadow: -4px 3px 5px black;
+  border-radius: 10px;
+  border: 1px ridge black;
+}
+button:hover {
+  text-decoration: underline;
+  color: aliceblue;
+  background-color: gray;
+  cursor: pointer;
+}
+button:active {
+  box-shadow: -1px 1px 5px black;
+}
+
+.title {
+  text-decoration: underline;
+  margin: 5vh auto;
+  text-shadow: -2px 2px 15px aliceblue;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.button-set {
+  width: 23%;
+  border-radius: 16px;
+  /* border: 2px solid blue; */
+}
+
+.random-button {
+  margin: 3vh auto;
+  /* border: 3px solid red; */
+}
+
+.specific-buttons {
+  margin: 3vh auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.specific-buttons button {
+  margin: 10%;
+  align-self: center;
+  /* display: block; */
+  /* border: 3px solid red; */
+}
+
+@media (max-width: 1000px) {
+  .change-image-button {
+    margin: 2vh auto;
+  }
+}
+@media (max-width: 500px) {
+  .background-image {
+    background-size: cover;
+    background-position: center;
+  }
+  header {
+    flex-direction: column;
+  }
+  .change-image-button {
+    margin: 2vh auto;
+  }
+  .buttons {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-set {
+    width: 50%;
+  }
+}
