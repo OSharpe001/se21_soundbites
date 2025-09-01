@@ -1,10 +1,10 @@
-import eagle_sound from "../assets/sounds/eagle_sound.mp3";
+import { hawk } from "../assets/sounds";
+
 
 export default function EagleEyesButtons({ playSound, randomEagleImage }) {
-
   const eagleEyes = () => {
     randomEagleImage();
-    playSound(eagle_sound);
+    playSound(hawk);
   }
 
   return (

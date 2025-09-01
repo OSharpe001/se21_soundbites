@@ -1,36 +1,39 @@
-import laptop from "../assets/images/laptop.png";
-import office from "../assets/images/backdrop_images/office.jpg";
-import perscholas1 from "../assets/images/backdrop_images/per_scholas1.png";
-import perscholas2 from "../assets/images/backdrop_images/per_scholas2.png";
-import baby_bib_kitten from "../assets/images/cat_images/baby_bib_kitten.png";
-import baby_tiger_kitten from "../assets/images/cat_images/baby_tiger_kitten.png";
-import blinds_kitten from "../assets/images/cat_images/blinds_kitten.png";
-import bowl_of_kitten from "../assets/images/cat_images/bowl_of_kitten.png";
-import cat from "../assets/images/cat_images/cat.png";
-import cold_cuddle_kittens from "../assets/images/cat_images/cold_cuddle_kittens.png";
-import come_hither_kitty from "../assets/images/cat_images/come_hither_kitty.png";
-import curious_kitten from "../assets/images/cat_images/curious_kitten.png";
-import cute_kittens from "../assets/images/cat_images/cute_kittens.jpeg";
-import cute_kittens2 from "../assets/images/cat_images/cute_kittens2.jpeg";
-import fabulous_cat from "../assets/images/cat_images/fabulous_cat.png";
-import flirty_kitty from "../assets/images/cat_images/flirty_kitty.png";
-import fortress_cat from "../assets/images/cat_images/fortress_cat.png";
-import hiding_cat from "../assets/images/cat_images/hiding_cat.png";
-import jumpcats from "../assets/images/cat_images/jumpcats.webp";
-import laid_back_cat from "../assets/images/cat_images/laid_back_cat.png";
-import puppy_dog_eyes_kitty from "../assets/images/cat_images/puppy_dog_eyes_kitty.png";
-import ribbon_wrapped_cat from "../assets/images/cat_images/ribbon_wrapped_cat.png";
-import sadcat from "../assets/images/cat_images/sadcat.webp";
-import solemn_kitty from "../assets/images/cat_images/solemn_kitty.png";
-import taunting_cat from "../assets/images/cat_images/taunting_cat.png";
-import too_cool_cat from "../assets/images/cat_images/too_cool_cat.png";
-import with_bells_on_kitty from "../assets/images/cat_images/with_bells_on_kitty.png";
-import eagle1 from "../assets/images/eagle_images/eagle1.png";
-import eagle2 from "../assets/images/eagle_images/eagle2.png";
-import eagle3 from "../assets/images/eagle_images/eagle3.png";
-import eagle4 from "../assets/images/eagle_images/eagle4.png";
-import eagle5 from "../assets/images/eagle_images/eagle5.png";
-import eagle6 from "../assets/images/eagle_images/eagle6.png";
+import {
+    laptop,
+    office,
+    perscholas1,
+    perscholas2,
+    baby_bib_kitten,
+    baby_tiger_kitten,
+    blinds_kitten,
+    bowl_of_kitten,
+    cat,
+    cold_cuddle_kittens,
+    come_hither_kitty,
+    curious_kitten,
+    cute_kittens,
+    cute_kittens2,
+    fabulous_cat,
+    flirty_kitty,
+    fortress_cat,
+    hiding_cat,
+    jumpcats,
+    laid_back_cat,
+    puppy_dog_eyes_kitty,
+    ribbon_wrapped_cat,
+    sadcat,
+    solemn_kitty,
+    taunting_cat,
+    too_cool_cat,
+    with_bells_on_kitty,
+    eagle1,
+    eagle2,
+    eagle3,
+    eagle4,
+    eagle5,
+    eagle6
+} from "../assets/images";
+
 
 export const allImages = [
     {
