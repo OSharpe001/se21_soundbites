@@ -1,0 +1,12 @@
+export { default as applause } from "./applause.mp3";
+export { default as astounded_pikachu } from "./astounded_pikachu.mp3";
+export { default as bell } from "./bell.mp3";
+export { default as buckshot } from "./buckshot.mp3";
+export { default as cheering_crowd } from "./cheering_crowd.mp3";
+export { default as cheering_kids } from "./cheering_kids.mp3";
+export { default as eh_eh } from "./eh_eh.mp3";
+export { default as happy_pikachu } from "./happy_pikachu.mp3";
+export { default as hawk } from "./hawk.mp3";
+export { default as nodemon_irie } from "./nodemon_irie.mp3";
+export { default as rude_bwoy } from "./rude_bwoy.mp3";
+export { default as talkative_pikachu } from "./talkative_pikachu.mp3";
